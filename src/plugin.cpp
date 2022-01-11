@@ -8,7 +8,6 @@ void init(Plugin* p) {
 	pluginInstance = p;
 
 	// Add modules here
-	p->addModel(modelTuring);
 	p->addModel(modelVintage);
 	p->addModel(modelExtasis);
 	p->addModel(modelJigsaw);

@@ -8,7 +8,6 @@ using namespace rack;
 extern Plugin* pluginInstance;
 
 // Declare each Model, defined in each module source file
-extern Model* modelTuring;
 extern Model* modelVintage;
 extern Model* modelExtasis;
 extern Model* modelJigsaw;

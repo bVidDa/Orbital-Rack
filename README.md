@@ -7,4 +7,4 @@ Included Modules:
 - Extasis
 - Jigsaw
 
-[WIP]
+Final
