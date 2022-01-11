@@ -1,0 +1,43 @@
+{
+  "slug": "Orbital",
+  "name": "Orbital",
+  "version": "1.3.8",
+  "license": "GPL-3.0-or-later",
+  "brand": "bVidDa",
+  "author": "Metaly",
+  "changelogUrl": "",
+  "authorEmail": "",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "modules": [
+    {
+      "slug": "Extasis",
+      "name": "Extasis",
+      "description": "Sine-Wave VCO",
+      "tags": [
+        "Low Frequency Oscillator",
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "Jigsaw",
+      "name": "Jigsaw",
+      "description": "Square/Saw VCO",
+      "tags": [
+        "Low Frequency Oscillator",
+        "Oscillator"
+      ]
+    },
+    {
+      "slug": "Turing",
+      "name": "Turing"
+    },
+    {
+      "slug": "Vintage",
+      "name": "Vintage"
+    }
+  ]
+}
