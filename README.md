@@ -3,8 +3,9 @@ http://vcvrack.com/
 
 Included Modules:
 
+- Turing
 - Vintage
 - Extasis
 - Jigsaw
 
-[WIP]
+1.4.2
