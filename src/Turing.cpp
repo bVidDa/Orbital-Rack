@@ -24,11 +24,11 @@ struct Turing : Module {
 
 	Turing() {
 		config(NUM_PARAMS, NUM_INPUTS, NUM_OUTPUTS, NUM_LIGHTS);
-      configParam(PARAM6+0, -12.f, 12.f, 4.f, "Mul");
-      configParam(PARAM6+1, 1.f, 48.f, 4.f, "Div");
-      configParam(PARAM6+2, -12.f, 12.f, 4.f, "Mul");
-      configParam(PARAM6+3, 1.f, 48.f, 4.f, "Div");
-	  /*
+      configParam(PARAM6+0, -60.f, 360.f, 4.f, "Mul");
+      configParam(PARAM6+1, 1.f, 420.f, 4.f, "Div");
+      configParam(PARAM6+2, -60.f, 360.f, 4.f, "Mul");
+      configParam(PARAM6+3, 1.f, 420.f, 4.f, "Div");
+	  
 	  configInput(IN_INPUT+0, "IN");
 	  configInput(IN_INPUT+1, "IN");
 	  
@@ -50,7 +50,7 @@ struct Turing : Module {
 	  configOutput(OUTPUT2+5, "1/sqr(2)");
 	  configOutput(OUTPUT2+6, "2/(Sqr(5)+1)");
 	  configOutput(OUTPUT2+7, "E");
-	  configOutput(OUTPUT2+8, "OUT"); */
+	  configOutput(OUTPUT2+8, "OUT");
 	}
 
 	void process(const ProcessArgs& args) override {
